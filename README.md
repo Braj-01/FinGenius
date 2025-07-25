@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💰 AI Finance Platform
 
-## Getting Started
+> An **AI-powered financial management platform** that helps you track, analyze, and optimize your finances with real-time insights and smart automation.  
+> Deployed live on **Vercel** for instant access!
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-13-blue)](https://nextjs.org/) 
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-blueviolet)](https://tailwindcss.com/)  
+[![Status](https://img.shields.io/badge/Live-Demo-brightgreen)](https://your-vercel-app-url.vercel.app)
+
+---
+
+## 🔗 Live Demo
+
+👉 https://your-vercel-app-url.vercel.app
+
+---
+
+## 💡 Project Overview
+
+This platform is an **AI Finance Management App** that empowers users to monitor and optimize their financial health. It provides a personalized dashboard powered by AI/ML analytics to track expenses, budgets, and suspicious activities in real-time.
+
+Key features include:
+
+- Real-time spending alerts  
+- Automated weekly/monthly summaries by email  
+- Intelligent insights using machine learning  
+- Secure user authentication and data storage via Supabase  
+- Responsive, modern UI built with Next.js and Tailwind CSS
+
+---
+
+## 🧠 How It Works
+
+The platform collects your transaction data securely and applies AI models to:
+
+1. Detect unusual transactions and alert you immediately  
+2. Analyze spending patterns and suggest budget improvements  
+3. Automatically send email notifications about your financial status  
+4. Schedule periodic jobs for summaries and alerts using Inngest
+
+---
+
+## 📸 Screenshots
+
+### 📊 Dashboard  
+![Dashboard Screenshot](public/screenshots/dashboard.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js** (React framework)  
+- **Tailwind CSS** (UI styling)  
+- **Prisma** (ORM for database)  
+- **Supabase** (Backend-as-a-Service)  
+- **Inngest** (Serverless job scheduler)  
+- **SMTP / Resend API** (Email notifications)  
+
+---
+
+## 🚀 How to Run Locally
 
 ```bash
+git clone https://github.com/your-username/ai-finance-platform.git
+cd ai-finance-platform
+npm install --legacy-peer-deps
+cp .env.example .env
+# Fill environment variables in .env file
+npx prisma generate
+npx prisma migrate dev --name init
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📄 License
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is licensed under the **MIT License**. Feel free to use, modify, and distribute it.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 👨‍💻 Author & Support
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Made with ❤️ by **[Braj Narayan Awasthi](https://www.linkedin.com/in/braj-narayan-awasthi-33193a274)**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+If you find this project useful:
 
-## Deploy on Vercel
+🌟 **Star** the repo  
+🐛 **Report issues or request features**  
+🔁 **Fork and customize for your needs!**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Note
+
+🚧 This project is still under development. Upcoming features include:
+
+- 🧠 AI-Based Saving Recommendations  
+- 📅 Budget Planning & Monthly Goals  
+- 📊 Export Reports (CSV / PDF)  
+- 🔐 Two-Factor Authentication (2FA)  
+- 🧾 Expense Categorization using Machine Learning  
+
+---
