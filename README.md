@@ -11,7 +11,7 @@
 
 ## 🔗 Live Demo
 
-👉 https://your-vercel-app-url.vercel.app
+👉 https://fin-genius-chi.vercel.app/
 
 ---
 
